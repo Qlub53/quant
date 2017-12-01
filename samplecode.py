@@ -2,7 +2,8 @@
 import traceback
 
 from dataapi import Client
-if __name__ == "__main__":
+
+def dataYes():
     try:
         client = Client()
         client.init('4b35b6b552ea66ef08186d267e693c86ed4726227979720aac8fb2d42a1c242a')
